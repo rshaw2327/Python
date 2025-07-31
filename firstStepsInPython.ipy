@@ -1,0 +1,1756 @@
+print("""You miss 100% of the shots you don't take.
+ - Wayne Gretzky """)
+
+print("Question 1:\n\nWhat has keys but can't open locks?\nAnswer:\n\nA Fence!")
+
+print("Question 2:\n\nWhat runs around the yard without moving\n\nAnswer:\nA fence!")
+
+print("Hello\n     World      \n....      \n     Goodbye!")
+
+print("Good\n\tmorning\n\t\tthe\n\t\t\ttime\n\t\t\t\tis\n\t\t\t\t\tnow\n\t\t\t\t\t\t")
+
+print("Richard\n"*10 )
+
+print("You miss 100% of the shots you don't take.\n"*10)
+
+layout="{:<10}{:^15}{:>15}"
+print(layout.format("Name","Department","Salary"))
+print(layout.format("Richard","Data-Scientist","$10000000000"))
+print(layout.format("Olivia","Finance","$20000000"))
+print(layout.format("Tori","Lawyer","$2000000000"))
+
+a=45
+print(a)
+
+name_of_the_country="India"
+helpline_number=259512561561
+print("In any emergency in", name_of_the_country, "contact:-",helpline_number)
+
+helpline_number= 8080800848454
+print("In any emergency contact " ,helpline_number)
+
+a=51
+b=56
+c=a+b
+print(c)
+
+a=56
+b=85
+c=a+b
+d=a*b
+e=a-b
+f=a/b
+print(c,"\n",d,e,f)
+
+age=25
+print("i am",age,"years old")
+
+city="Newyork"
+print("i live in",city)
+
+
+age=25
+major="engineering"
+print("i am", age,"years old and studying",major)
+
+city="Newyork"
+state="NY"
+country="USA"
+print("I live in ",city,state,country)
+
+price=100
+discount=20
+discounted_price=price-discount
+print(discounted_price)
+
+x=5
+print(x**2)
+
+y=10
+print(y*3)
+
+z=2
+(z**3)
+
+e=2
+f=3
+g=4
+print(e*(f+g))
+
+x=25
+y=10
+td=(x/y)
+fd=(x//y)
+m=(x%y)
+print(td,fd,m)
+
+p=1000
+r=5
+t=2
+SI=(p*r*t)/100
+print(SI)
+
+#Area of rectangle A=L*W
+L=5
+W=3
+A=L*W
+print(A)
+
+#Volume of the cylinder
+r=2
+h=5
+pi=3.14
+print(r*2)
+
+
+a=1
+b=-3
+c=2
+d=(b**2)
+e=(4*a*c)
+f=d-e
+g=(f)**(1/2)
+h=(-b)-g
+i=h/(2*a)
+
+
+print(i)
+
+print(4*a*c)
+
+(9-8)**(1/2)
+
+-3-0.5/2*a
+
+input_name=input("please enter your name")
+print(input_name)
+
+input_hobby=input("please enter your hobby")
+print(input_hobby)
+
+
+input_country=input("please enter your country")
+print(input_country)
+
+input_country=input("please enter your country")
+input_name=input("please enter your name")
+input_hobby=input("please enter your hobby")
+print ("welcome", input_name, "YOU LIVE IN ",input_country,"you like to",input_hobby)
+
+tax=int(input("enter your tax here"))
+print("yearly returns",tax)
+
+
+#find the compound interest
+# A=P* (1+rn)**(n*t)
+
+P=5000
+r=0.08
+t=3
+n=2
+
+a=(1+r*n)
+b=(n*t)
+c=(a)**b
+A=P*c
+print(A)
+
+for i in range(1,51):
+    
+    
+       print(i)
+
+for i in range(1,101,2):
+    print(i,end= '   ')
+
+for i in range(2,101,2):
+    print(i,end= ',')
+
+for i in range(25,0,-2):
+    print(i)
+
+for i in range(1,10):
+    print(i**3)
+
+for i in range(1,100):
+    if i/2==0:
+        print(i)
+       
+
+age=22
+
+
+if (age>=18):
+    print("adult")
+else: 
+    print ("minor")
+
+
+for i in range(1,21):
+    print(i, end= ' ')
+
+for i in range(1,100,2):
+    print(i, end=' ')
+              
+
+for i in range(2,101,2):
+    print(i, end=' ')
+
+for i in range(50,0,-1):
+    print(i,end=' ')
+
+for i in range(1,21):
+    print(i*5)
+
+layout="{:<8}{:<7}"
+print(layout.format("number","cube"))
+
+for i in range(1,11): 
+    print(layout.format( i, i**3))   
+
+layout="{:<8}{:<7}"
+print(layout.format("number","square-root"))
+
+for i in range(1,11): 
+    print(layout.format( i, i**(1/2)))   
+
+for i in range(1,11):
+    print("5","*",i,"=",i*5)
+
+input_number=int(input("please enter the number "))
+for i in range(1,11):
+        print(input_number,"*",i,"=",i*input_number)
+
+
+
+for i in range(10,31,2):
+    print(i)
+
+for i in range(37,12,-2):
+    print(i)
+
+layout="{:<8}{:<7}"
+print(layout.format("number","square"))
+
+for i in range(1,11): 
+    print(layout.format( i, i**2))   
+
+count=0
+for i in range (1,100,2):
+    count=count+1
+print("there are",count,"odd numbers in the range 1 to 100")
+
+count=0
+for i in range(7,99,7):
+    count=count+1
+print(count)
+
+input_number=int(input("please enter the number"))
+count=0
+for i in range(1,100,input_number):
+    count=count+1
+print("please enter the number",input_number*i,count)
+    
+    
+
+                
+
+product=1
+for i in range(1,10):
+    product = product*i
+print("the product from 1 to 10 is ",product )
+
+for i in range(1,50):
+    print(i**3)
+
+factorial=1
+number=int(input("please enter the number" ))
+for i in range(1, number+1):
+    factorial=factorial*i
+print(factorial)
+
+
+start=int(input("please enter a starting number"))
+end=int(input("please enter a ending number"))
+sum=0
+for i in range(start, end, end+1):
+    sum= sum+i
+average=sum/(end-start) 
+print(average)
+
+
+sum=0
+for i in range(1,50):   
+    sum_of_all_numbers=sum+i
+print(sum_of_all_numbers)
+
+print("\"I love programming\"")
+
+print("The fortune of a person who sits remains still; the fortune of one who stands rises; the fortune of one who lies down goes to sleep; and the fortune of one who moves, moves along. Therefore, keep moving.")
+
+print("\"Keep your eyes on the stars, and your feet on the ground.\” - Theodore Roosevelt")
+
+print("She said to me,\"Please give me a glass of water\".")
+
+print(""" What is this life if, full of care,
+We have no time to stand and stare.
+No time to stand beneath the boughs
+And stare as long as sheep or cows.""")
+
+print("""😂 (Face with Tears of Joy)
+🤣 (Rolling on the Floor Laughing)
+😆 (Grinning Squinting Face)
+😜 (Winking Face with Tongue)
+🤪  (Zany Face) """)
+
+print("hello \t\n World.....\n\t")
+
+print("\t1\n \t\t2\n \t\t\t3\n \t\t\t\t4\n \t\t\t\t\t5\n")
+
+for i in range(25,0,-2):
+    print(i)
+
+for i in range(2,100,2):
+    print(i, end=' ')
+
+city_name=input("i live in")
+print(city_name)
+
+for i in range(1,11):
+    print(i, end=' ')
+
+print ("1  \n1\t2 \n1\t2\t\3 \n1\t2\t\3\t4 \n1\t2\t\3\t4\t5")
+
+s=0
+n=int(input("enter the number "))
+for i in range (1,n+1,1):
+    s+= i
+print(n)
+print("sum is : ",s)
+
+           
+
+for i in range(1,11):
+    print(i*2)
+
+numbers=[12,75,150,180,145,525,50]
+
+for item in numbers:
+    if item >500:
+        break
+    elif item>150:
+        continue
+        
+    elif item % 5==0:
+        print(item)
+
+num=758692062
+count=0
+while num !=0:
+    num=num//10
+    count=count+1
+print("total digits are:",count)    
+
+n=5
+k=8
+for i in range(0,n+1):
+    for j in range(k-i,0,-1):
+        print(j,end='')
+        
+
+list1=[10,20,30,40,50]
+new_list=reversed(list1)
+for item in new_list:
+    print(item)
+
+for i in range(10,0,-1):
+    print(i)
+
+            
+    
+
+
+for i in range(5):
+    print(i)
+else:
+    print("Done")
+
+#find the factorial of 5
+factorial=1
+num=10
+
+for i in range(1,num+1):
+    factorial=factorial*i
+print(factorial)  
+    
+    
+
+a=76542
+print(a)
+
+number1=20
+number2=30
+
+number1*number2
+
+numbers=[10,20,30,40,50]
+sum = 0
+for i in numbers:
+    sum=sum+i
+list_size=len(numbers)
+average=numbers/list_size
+print(average)
+
+for i in range(1,11):
+    if i % 2==0:
+        print('even number',i)
+    else: 
+        print('odd number',i)
+        
+    
+   
+
+numbers = [1, 4, 7, 8, 15, 20, 35, 45, 55]
+for i in numbers:
+    if i>15:
+        break
+    else:
+        print(i)
+
+
+numbers = [2, 3, 11, 7]
+for i in numbers:
+    print('current number is',i)
+    
+    if i>10:
+        continue
+    square=i**2
+    print("Square of the number is",square)
+
+factorial=1
+num=int(input('enter the number for the factorial'))
+for i in range(1,num+1):
+     factorial=factorial*i
+print(factorial)        
+              
+              
+
+age=int(input("please enter your age"))
+if (age>18):
+    print("get yourself inked. you are eligible to vote")
+else:
+    (age<18)
+    print('you are not eligible to vote')
+        
+
+num=int(input("enter the number "))
+if (num%2==0):
+    print("it is an even number")
+else:
+    print("it is odd number")
+
+num=int(input("enter the number "))
+if (num%2!=0):
+    print("it is an odd number")
+else:
+    print("it is even number")
+
+day_num=int(input("enter the number"))
+
+
+if (day_num==1):
+    print("monday"),
+elif (day_num==2):
+    print("tuesday"),
+elif (day_num==3):
+    print("wednesday"),
+else:
+    print("invalid day number")
+
+input_age=int(input("enter the number"))
+if input_age>=60:
+    print("senior ticket"),
+
+elif input_age>=18:
+    print("adult ticket"),
+    
+else:
+    print("child ticket")
+
+
+days_left=int(input("enter the number here"))
+if days_left==3:
+    print("submission on time")
+elif days_left>3:
+    print("submission is early")
+else:
+    print("submission is late")
+
+weight=int(input("enter the weight here"))
+if weight==2:
+    print("shipping costs is $10")
+
+elif weight <=1:
+    print("shipping costs is $5")
+
+else:
+    print("shipping costs is $15")  
+    
+  
+
+wheels=int(input("enter the number of wheels"))
+if wheels==2:
+    print("motorcycle"),
+elif wheels==4:
+    print("car"),
+elif wheels==6:
+    print("truck"),
+else:
+    print("unknow vehicle")
+    
+
+age=int(input("enter the age here"))
+if age>=16:
+    print("high school"),
+elif age>=12:
+    print("middle school"),
+elif age>=6:
+    print("elementary school")
+else:
+    print("preschool")
+    
+
+employed=input("are you employed yes/no")
+high_credit_score=input("do you have high credit score yes/no")
+if employed=="yes":
+    print("you are eligible for loan"),
+elif high_credit_score=="yes":
+    print("you are eligible for loan"),
+else:
+    print("not eligible")
+
+cost=int(input("enter the amount of the product"))
+product=(input("do you have a product that qualifies for shipping YES/NO"))
+if cost>=100:
+    print("eligible for free shipping")
+elif product=="yes":
+    print("eligible for shipping")
+else:
+    print("not eligible for shipping")
+    
+
+number_of_month=int(input("enter the number of the month according to the calendar year "))
+if number_of_month==1 or number_of_month==2 or number_of_month==12:
+    print("winter")
+elif number_of_month==(3,4 or 5):
+    print("spring")
+elif number_of_month==(6,7 or 8):
+    print("summer")
+elif number_of_month==(9,10 or 11):
+    print("autumn")
+else:
+    print("invalid number")
+    
+
+#input 5 marks in 5 different variables and calculate and print average marks
+
+physics=int(input("enter your marks in physics"))
+maths=int(input("enter your marks in maths"))
+english=int(input("enter your marks in enlglish"))
+geography=int(input("enter your marks in geography"))
+biology=int(input("enter your marks in biology"))
+
+calculate_percentage=(physics+maths+english+geography+biology)/500
+score=calculate_percentage*100
+print(score)
+print("percentage is",calculate_percentage)
+
+average_of_marks= physics+maths+english+geography+biology/5
+print("average is",average_of_marks)
+
+if score>=90:
+    print("grade is A"),
+elif (score>=80 and score<90) :
+    print("grade is B"),
+elif (score>=70 and score<80):
+    print("grade is C"),
+elif (score>=60):
+    print("grade is D"),
+else:
+    print("grade is F")
+
+score=int(input("please enter your score here"))
+if score>=90:
+    print("grade is A"),
+elif (score>=80 and score<90) :
+    print("grade is B"),
+elif (score>=70 and score<80):
+    print("grade is C"),
+elif (score>=60):
+    print("grade is D"),
+else:
+    print("grade is F")
+
+side1=int(input("enter the length of side 1 "))
+side2=int(input("enter the length of side 2 "))
+side3=int(input("enter the length of side 3 "))
+
+if side1+side2==side3:
+    print("right triangle"),
+elif side1==side2==side3:
+    print("equilateral traangle"),
+elif side1==side2 or side1==side3 or side2==side3:
+    print("isosceles triangle")
+else:
+    print("scalene triangle")
+    
+
+HP=int(input("please enter your health points"))
+if (HP<=0):
+    print("Dead"),
+elif (HP>=1 and HP<=10):
+    print("wounded")
+elif (HP>=11 and HP<=20):
+    print("still alive"),
+elif (HP>=21):
+    print("Healthy")
+
+weight_of_shipping=int(input("enter the weight here"))
+
+if weight_of_shipping<2:
+    print("shipping costs is $5"),
+elif (weight_of_shipping==2 and weight_of_shipping<=5):
+    print("shipping costs is $10"),
+elif (weight_of_shipping==6 and weight_of_shipping<=10):
+    print("shipping cost is $15"),
+else:
+    print("shipping cost is $20")
+
+
+height_meters=int(input("enter your height in meters"))
+weight_kgs=int(input("enter your weight in kgs"))
+
+height_square=height_meters**2
+BMI=weight_kgs/height_square
+print(BMI)
+
+if BMI<18.5:
+    print("you are underweight"),
+elif (BMI==18.5 and BMI<24.9):
+    print("you are normal weight"),
+elif (BMI==25 and BMI<29.9):
+    print("you are overweight"),
+else:
+    print("you are obese")
+
+loan_amount=int(input("please enter the loan amount"))
+interest_rate=int(input("please enter your interest rate"))
+Loan_term=int(input("please enter the loan term"))
+Fees=int(input("enter your Fees"))
+
+loan_interest_rate=loan_amount*interest_rate*Loan_term
+total_cost=loan_amount+loan_interest_rate+Fees
+
+print(loan_interest_rate)
+print(total_cost)
+
+if total_cost<60000:
+    print("you have a cheap loan"),
+elif total_cost==60000  and total_cost<650000:
+    print("you have a moderate loan"),
+else:
+    print("you have a expensive loan")
+
+distance=int(input("please enter the distance"))
+fuel_efficency=int(input("please enter the fuel efficiency"))
+fuel_cost_per_gallon=int(input("please enter the fuel cost per gallon"))
+tolls=int(input("please enter the tolls cost"))
+food_cost=int(input("please enter the food cost"))
+
+fuel_cost=(distance/fuel_efficency)*fuel_cost_per_gallon
+total_cost=fuel_cost+tolls+food_cost
+print(total_cost)
+
+
+if total_cost<150:
+    print("you have a budget friendly trip"),
+elif total_cost==150 and total_cost<250:
+    print("you have a moderate trip")
+else:
+    print("you had a expensive trip")
+    
+
+
+months=int(input("Enter how many months"))
+personal_training=int(input("enter your monthly session"))
+equipment_rental=int(input("enter the number of months rental"))
+
+personal_training_cost=personal_training*30
+number_of_months_cost=months*50
+equipment_rental_cost=equipment_rental*20
+
+
+
+total_cost=number_of_months_cost+personal_training_cost+equipment_rental_cost
+print(total_cost)
+
+
+if total_cost<200:
+    print("you have a basic membership"),
+    
+elif (total_cost>=200 and total_cost<=350): 
+    print("you have a standard membership"),
+    
+else:
+    print("you have a premium membership")
+
+venue_cost=int(input("enter the total venue cost"))
+total_guest=int(input("enter the tottal number of guests"))
+decorations_cost=int(input("enter the total decorations cost"))
+photography_cost=int(input("enter the total photography cost"))
+               
+food_cost=8000*total_guest  
+total_cost=venue_cost+food_cost+decorations_cost+photography_cost
+print(total_cost) 
+
+if total_cost<10000:
+               print("you have a simple wedding"),
+elif total_cost>=10000 and total_cost<=150000:
+               print("you have a standard wedding"),
+else:
+               print("you have a luxurious wedding")
+               
+               
+
+flight_cost=int(input("please enter the flight cost"))
+accomodation=int(input("enter the number of nights"))
+food_meals=int(input("please enter the number of meals"))
+activities=int(input("please enter the number of people"))
+
+accomodation_cost=1500*accomodation
+food_cost=food_meals*30
+activities_cost=50*activities  
+
+
+total_cost=flight_cost+accomodation_cost+food_cost+activities_cost
+print(total_cost)
+
+if total_cost<2000:
+    print("you have a budget vacation")
+elif (total_cost==2000 and total_cost<=3500):
+    print("you have a mid-range vacation")
+else:
+    print("print you had a luxiours vacation")
+    
+
+flight_expense_people=int(input("please enter the number of people taking flight"))
+accomodation_expense=int(input("enter the number of nights"))
+food_meals=int(input("please enter the number of meals"))
+transportation=int(input("please enter the cost of transportation"))
+miscellaneous_expenses=int(input("please enter the miscellaneous expenses"))
+
+flight_cost=1200*flight_expense_people
+accomodation=1800*accomodation_expense
+food_cost=40*food_meals
+transportation_cost=100*transportation
+
+total_cost=flight_cost+accomodation+food_cost+transportation_cost+miscellaneous_expenses
+total_cost_per_person=total_cost/flight_expense_people
+average_cost_per_day=total_cost/accomodation_expense
+
+print(total_cost)
+print(total_cost_per_person)
+print(average_cost_per_day)
+
+if  total_cost<5000:
+    print("you had a budget business trip ")
+    
+elif total_cost>=5000 and total_cost<=8000:
+    print("you had a standard business trip")
+ 
+else:
+    print("you had a luxury trip")
+
+material_expense=int(input("enter the number of square-foot "))
+labour_expense=int(input("enter the number of hours for labour "))
+equipment_expense=int(input("enter the number of days "))
+overheads=int(input("enter the overheads "))
+total_square_feet=int(input("enter the total square foot "))
+total_days=int(input("enter the number of total days "))
+
+material_cost=50000*total_square_feet
+labour_cost=30000*labour_expense
+equipment_cost=20000*total_days
+total_cost=material_cost+labour_cost+equipment_cost+overheads
+total_cost_per_foot=total_cost/total_square_feet
+average_cost_per_day=total_cost/total_days
+print(total_cost)
+print(total_cost_per_foot)
+print(average_cost_per_day)
+
+if total_cost<1000000:
+    print("you have a small-scale project")
+elif (total_cost>=1000000 and total_cost<2000000):
+    print("you have a mig-range project")
+else:
+    print("you have a large project")
+
+first_integer=int(input("enter the first integer"))
+second_integer=int(input("enter the second integer"))
+third_integer=int(input("enter the third integer"))
+
+if (first_integer+second_integer>third_integer):
+    print("you have a valid triangle")
+elif (second_integer+third_integer>first_integer):
+    print("you have a valid triangle")
+elif (first_integer+third_integer):
+    print("you have a valid triangle")
+else:
+    print("your integers cannot form a valid triangle")
+
+    
+
+enter_a_month=int(input("enter the number of the month"))
+
+if (enter_a_month==1 or enter_a_month==3 or enter_a_month==5 or enter_a_month==7 or enter_a_month==8 or enter_a_month==10 or enter_a_month==12
+):
+    print("it has 31 days")
+    
+elif (enter_a_month==4 or enter_a_month==6 or enter_a_month==9 or enter_a_month==11):
+    print("it has 30 days")
+elif (enter_a_month==2):
+    print("it has 28 days")
+    
+    
+
+for i in range (1,11):
+    print("5","*",i,"=",i*5)
+
+layout="{:<8}{:<8}"
+print(layout.format("number", "Square"))
+
+for i in range(1,11):
+    print(layout.format(i,i**2))
+
+sum=0
+for i in range(2,201,2):
+    sum=sum+i
+    
+print(sum)    
+
+factorial=1
+enter_number=int(input("enter the number"))
+for i in range(1,enter_number+1):
+    factorial=factorial*i
+    print(factorial)
+
+factorial=1
+num=int(input('enter the number for the factorial'))
+for i in range(1,num+1):
+     factorial=factorial*i
+print(factorial)        
+              
+
+user1=input("please enter the username")
+passw1=input("please enter the password")
+user2=input("please reneter the username")
+passw2=input("please renter the password")
+
+username="rich"
+if (user1==user2 and passw1==passw2):
+    print("welcome")
+else :
+    print("invalid credentials")
+
+enter_number=int(input("enter the number"))
+if enter_number%3==0:
+    print("the number is divisible by 3")
+    
+else:
+    print("the number is not divisible by 3")
+    
+
+enter=int(input("enter the number"))
+
+if enter%2==0:
+    print("the number is even")
+else:
+    print("the number is odd ")
+
+enter=int(input("enter the year in YYYY format"))
+if enter%4==0:
+    print("this is a leap year")
+else:
+    print("this is not a leap year")
+
+enter=int(input("enter the number"))
+if enter==-enter:
+    print("its a negative number")
+else:
+    print("it's a positive number")
+
+num1=int(input("enter the number 1"))
+num2=int(input("enter the number 2"))
+
+print("the sum if the number is",num1+num2)
+
+num1=int(input("enter the number 1"))
+num2=int(input("enter the number 2"))
+operator=input("enter the opearation you want to do")
+
+if operator=="*": 
+    print(num1*num2),
+elif operator=="/":
+    print(num1/num2),
+elif operator=="+": 
+    print(num1+num2),
+elif operator=="-":
+    print(num1-num2),
+
+
+#the age calculator
+
+birth_year=int(input("enter your birth year"))
+current_year=int(input("enter the current year"))
+age=current_year-birth_year
+print("you are either ",age,"or",age+1)
+
+    
+      
+
+    
+
+
+#celcius to farenheit
+temp=int(input("enter the temperature in celcius"))
+farenheit=temp*(9/5)+32
+
+print("the temperature in farenheit is",farenheit)
+
+#farenheit to celcius
+temp=int(input("enter the temperature in farenheit"))
+celcius=(temp-32)*5/9
+
+print("the temperature in celcius is",celcius)
+
+age=int(input("enter your age"))
+amount_per_day=int(input("the your amount per day"))
+estimated_age=int(input("enter your estimated age"))
+
+total_supply=(estimated_age-age)*amount_per_day
+print("total supply is ",total_supply)
+
+layout="{:<7}{:>6}"
+print(layout.format("number","square"))
+
+for i in range(1,11):
+    print(layout.format(i,i**2))
+
+username = "richard123"
+passw= "shaw1223"
+
+uspu=input("please enter the username")
+passwd=input("please enter the password")
+
+if (uspu==username and passw==passwd):
+    print("Welcome"),
+    
+else:
+    print("invlaid credentials")
+    
+    
+
+import random
+
+random_number = random.uniform(0,6)
+print(random_number)
+
+random_num= random.randint(1,100)
+print(random_num)
+
+for i in range(0,11):
+    print(random.randint(1,100))
+   
+    
+
+
+
+
+for i in range(1,20,-2):
+    print(random.randint(1,20))
+
+
+print(random.uniform(1,-1))
+
+sum=0
+for i in range(0,11):
+    random_nums=random.randint(1,100)
+    print(random_nums)
+    sum=sum+random_nums
+
+average=(random_nums+sum)/10
+print(average)
+   
+   
+    
+
+import random
+list_numbers=[1,2,3,4,5,5,44,41,54,1,54,1,5]
+print(random.choice(list_numbers))
+
+year= 2024
+month = 8
+import calendar
+cal = calendar.TextCalendar(calendar.SUNDAY)
+month_calendar = cal.formatmonth(year,month)
+print(month_calendar)
+
+year=int(input("please enter the year"))
+month=int(input("please enter the month"))
+import calendar
+cal = calendar.TextCalendar(calendar.SUNDAY)
+month_calendar = cal.formatmonth(year,month)
+print(month_calendar)
+
+
+for i in range(1,20):
+    random_num= random.randint(1,100)
+    print(random_num)
+    
+
+
+
+    
+
+year=int(input("please enter the year"))
+import calendar
+cal = calendar.TextCalendar(calendar.MONDAY)
+year_calendar = cal.formatyear(year)
+print(year_calendar)
+
+
+year=int(input("please enter the year"))
+import calendar
+cal = calendar.TextCalendar(calendar.SUNDAY)
+year_calendar = cal.formatyear(year)
+print(year_calendar)
+
+if year%4==0:
+    print("this is a leap year"),
+else:
+    print("not a leap year")
+    
+
+year=int(input("please enter the year"))
+
+
+is_leap=(calendar.isleap(year))
+if is_leap == False: 
+    print("Sorry this is not a leap year")
+    
+else: 
+    print("this is a leap year")
+
+import calendar
+for i in range(2000,2100):
+    is_leap = (calendar.isleap(i))
+    if is_leap == True:
+        print(i)
+    
+     
+
+
+weekday_number = calendar.weekday(2024,8,15)
+print(weekday_number)
+
+date=int(input("please enter the date of the month"))
+month=int(input("please enter the month of of the year"))
+year=int(input("please enter the year"))
+
+weekday=calendar.weekday(year,month,date)
+print(day_of_month)
+
+if weekday==0:
+    print("monday"),
+elif weekday==1:
+    print("tuesday"),
+elif weekday==2:
+    print("wednesday"),
+elif weekday==3:
+    print("thursday"), 
+elif weekday==4:
+    print("friday"),
+elif weekday==5:
+    print("saturday"), 
+elif weekday==6:
+    print("sunday"),    
+
+#write a program to input a year and a month and then print how many saturdays are there in the month
+
+
+
+import calendar
+weekday_first, number_of_days = calendar.monthrange(2024,8)
+week_day_first=print("the first day of the august is",weekday_first)
+num_of_days=print("the number of the days in August is", number_of_days )
+
+
+
+import calendar
+month=int(input("please enter the month number"))
+year=int(input("please enter the year "))
+
+
+weekday_first,number_of_days = calendar.monthrange(year,month)
+fridays=0
+for i in range(1, number_of_days+1):
+    weekday_number = calendar.weekday(year,month,i)
+    if(weekday_number==5):
+        fridays=fridays+1
+print("there are total",fridays,"fridays in august")        
+
+weekday=int(input("please enter the weekday of the month"))
+month=int(input("please enter the month number"))
+year=int(input("please enter the year"))
+
+         
+# for i in range(1,number_of_days+1):
+#     weekday_number=calendar.weekday(year,month,i)
+#      if(weekday_number==4):`
+        
+        
+        
+        
+  
+
+         
+         
+         
+         
+         
+         
+
+#calendar.weekday= then it will give the weekday number will return which day it was on a particular day
+#calendar.monthrange= will give which day is the month starting and how many days are there in the month 
+
+import calendar
+year=int(input("enter the year "))
+month=int(input("enter the month"))
+
+print(calendar.month(year,month))
+
+year=int(input("enter the year "))
+month=int(input("enter the month"))
+date=int(input("enter the date"))
+year_calendar = cal.formatyear(year)
+month_calendar = cal.formatmonth(year,month)
+weekday_first,number_of_days = calendar.monthrange(year,month)
+weekday_number = calendar.weekday(year,month,date)
+print(weekday_first,number_of_days)
+print(month_calendar)
+print(year_calendar)
+print(weekday_first,number_of_days)
+
+for i in range(1,11):
+    print(i)
+
+print('number pattern')
+rows=6
+for i in range(rows):
+    for j in range(i):
+        print(i,end='')
+        print(i)
+
+rows = 5
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        print(j, end=' ')
+    print('')
+
+rows = 5
+b = 0
+# reverse for loop from 5 to 0
+for i in range(rows, 0, -1):
+    b += 1
+    for j in range(1, i + 1):
+        print(b, end=' ')
+    print('\r')
+
+import calendar
+weekday=int(input("please enter the weekday number"))
+month=int(input("please enter the month"))
+year=int(input("please enter the year"))
+weekday_first,number_of_days=calendar.monthrange(year,month)
+for i in range(1,number_of_days+1):
+    weekday_number = calendar.weekday(year,month,i)
+    if (weekday_number == weekday):
+         print(i,"/",month,"/",year)
+        
+   
+
+name=input("enter the name")
+
+
+def greet (name):
+     print("Good night",name)
+        
+        
+greet(name)
+   
+    
+
+
+number1=int(input("enter the number1"))
+number2=int(input("enter the number2"))
+
+def addition (number1,number2):
+    print(number1+number2)
+addition(number1,number2)
+
+number1=int(input("enter the first number"))
+number2=int(input("enter the second number"))
+operation=input("which operation you want to do")
+
+def addition (number1,number2):
+    print(number1+number2)
+addition(number1,number2)    
+
+def subtraction (number1,number2):
+    print(number1-number2)
+subtraction(number1,number2)    
+
+def product (number1,number2):
+    print(number1*number2)
+product(number1,number2)    
+
+def divison (number1,number2):
+    print(number1/number2)
+divison(number1,number2)
+    
+if (operation==("addition") or operation==("+")):
+    print(addition)
+    
+elif (operation==("subtraction") or operation==("-")):
+    print(subtraction)
+        
+elif (operation==("product") or operation==("*")):
+    print(product)
+
+else :
+    (operation==("divison")or operation==("/"))
+    print(divison)
+        
+    
+
+
+name=input("enter the name of the people")
+age=input("enter the age")
+
+def intro (name,age):
+    print("my name is",name,"\n","my age is",age)
+    
+intro(name,age)
+
+number1=int(input("enter the first number"))
+number2=int(input("enter the second number"))
+operation=input("which operation you want to do")
+
+def addition (number1,number2):
+    print(number1+number2)
+    
+def subtraction (number1,number2):
+    print(number1-number2)
+    
+
+def product (number1,number2):
+    print(number1*number2)
+
+def divison (number1,number2):
+    print(number1/number2)
+
+    
+if (operation==("addition") or operation==("+")):
+    addition(number1,number2)
+print("the addition of both the number is",addition),
+    
+elif (operation==("subtraction") or operation==("-")):
+    subtraction(number1,number2)
+        
+elif (operation==("product") or operation==("*")):
+    product(number1,number2),
+
+else :
+    (operation==("divison")or operation==("/"))
+    divison(number1,number2)
+
+def factorial (number):
+    factorial=1
+    for i in range(number,0,-1):
+        factorial=factorial*i   
+    print(factorial)           
+number=int(input("please enter the number"))    
+factorial(number)
+
+starting_num=int(input("enter the starting number"))
+ending_num=int(input("enter the ending number"))
+
+def even_number(staring_num,ending_num):
+    for i in range(starting_num,ending_num,2):
+        print("the even number are",i)
+even_number(starting_num,ending_num)    
+
+starting_num=int(input("enter the starting number"))
+ending_num=int(input("enter the ending number"))
+
+def odd_number(staring_num,ending_num):
+    count=0
+    for i in range(starting_num,ending_num,2):
+        count=count+1
+    print("there are",count,"numbers in the loop")
+odd_number(starting_num,ending_num)    
+
+
+
+number=int(input("enter the number here"))
+def prime_num(number):
+    if (number<=1):
+        print("this is a prime number")
+        
+    elif (number%number):
+        print("this is a prime number")
+        
+    else:
+          print("this is not a prime number")    
+    
+    
+    prime_num(number)     
+
+starting number 
+ending number 
+print all the prime numbers in that range
+
+num=int(input("enter the number"))
+factors=0
+for i in range (1,num+1):
+    if(num%i==0):
+        factors=factors+1
+if(factors==2):
+    print("prime number")      
+else:
+    print("not a prime number")
+
+def prime_number(num):
+    factors=0
+    for i in range (1,num+1):
+        if(num%i==0):
+            factors=factors+1
+    if(factors==2):
+        print("prime number")      
+    else:
+        print("not a prime number")
+num=int(input("enter the number"))
+prime_number(num)
+
+def prime_number(starting_num,ending_num):
+    
+    for i in range(starting_num,ending_num+1):
+        factors=0
+        for j in range(1,i+1):
+            if(i%j==0):
+                factors=factors+1
+        if(factors==2):
+            print(i)        
+starting_num=int(input("please enter the staring number"))
+ending_num=int(input("please enter the ending number"))
+prime_number(starting_num,ending_num)
+
+
+num=int(input("enter the number"))
+factors=0
+for i in range(1,num+1):
+    if num%1==0:
+        factors=factors+1
+if (factors==2):
+    print("this is a prime number")
+else:
+    print("this is not a prime number")
+        
+            
+    
+    
+
+def prime_number(num):
+    for i in range(1,num+1):
+        factors=0
+    if (num%i==0):
+        factors=factors+1
+    if (factors==2):
+        print("this is a prime number")
+    else:
+         print("this is not a prime number")   
+            
+num=int(input("please enter the number"))
+prime_number(num)
+    
+            
+
+def prime_num(starting_num,ending_num):
+    for i in range(starting_num,ending_num+1):
+        factors=0
+    for j in range(1,i+1):
+        if (i%j==0):
+            factors=factors+1
+    if (factors==2):
+        print(i)
+starting_num=int(input("please enter the starting number"))
+ending_num=int(input("please enter the ending number"))
+prime_num(starting_num,ending_num)            
+
+def prime_number(starting_num,ending_num):
+    
+    for i in range(starting_num,ending_num+1):
+        factors=0
+        for j in range(1,i+1):
+            if(i%j==0):
+                factors=factors+1
+        if(factors==2):
+                if i==7:
+                    print(i)                
+starting_num=int(input("please enter the staring number"))
+ending_num=int(input("please enter the ending number"))
+prime_number(starting_num,ending_num)
+
+
+import calendar
+date=int(input("please enter the date of the month"))
+month=int(input("please enter the month of of the year"))
+year=int(input("please enter the year"))
+
+weekday=calendar.weekday(year,month,date)
+print(weekday)
+
+if weekday==0:
+    print("monday"),
+elif weekday==1:
+    print("tuesday"),
+elif weekday==2:
+    print("wednesday"),
+elif weekday==3:
+    print("thursday"), 
+elif weekday==4:
+    print("friday"),
+elif weekday==5:
+    print("saturday"), 
+elif weekday==6:
+    print("sunday"),    
+
+
+num=int(input("please enter the number"))
+
+factorial=1
+for i in range(1,num+1):
+    factorial=factorial*i
+    print(factorial)
+
+
+for i in range (1,101):
+    factors=0
+for j in range(1,i+1):
+    if(i%j==0):
+         factors=factors+1
+    if(factors==2):
+        print(i)       
+
+
+count=0 #Acts as security guard that keeps the track of how many numbers are printed
+num=2 starting number
+while(count<10):
+    print(num, end=" ")
+    num=num+2
+    count=count+1
+
+#print 1st 20 odd numbers
+count=0  
+num=1
+while(count<20):
+    print(num,end=" ")
+    num=num+2
+    count=count+1
+
+count=0
+num=2
+
+while(count<10):
+    factors=0
+    for i in range(1,num+1):
+        if (num%i==0):
+            factors=factors+1
+    if (factors==2):
+        count=count+1
+        print(num,end= " ")
+    num=num+1
+
+num=int(input("please enter the number here"))
+
+count=0
+
+while(count<num):
+    factors=0
+    for i in range(1,num+1):
+        if (num%i==0):
+            factors=factors+1
+    if (factors==2):
+        count=count+1
+        print(num,end= " ")
+    
+    
+
+sum_numbers = 0
+for num in range(1, 11):
+    sum_numbers += num
+print(sum_numbers)
+
+
+
+my_list = [1, 2, 3, 4, 5]
+for element in my_list:
+    print(element)
+
+my_list=[1,2,3,4,5]
+product=1
+for num in my_list:
+    product*=num
+    print(product, end=" ")
+
+my_string = "Hello"
+for char in my_string:
+    print(char)
+
+my_list = [3, 9, 1, 6, 2, 8]
+largest = my_list[0]
+for num in my_list:
+    if num > largest:
+        largest = num
+print(largest)
+
+my_list = [4, 7, 9, 2, 5]
+total = 0
+for num in my_list:
+    total += num
+average=total/len(my_list)
+print(average)
+
+for num in range(1, 21):
+    if num % 3 == 0 or num % 5 == 0:
+        print(num)
+
+squares = [num**2 for num in range(1, 10)]
+print(squares)
+
+num=int(input("please enter the number"))
+m=num
+sum=0
+while(m!=0):
+    d=m%10
+    sum=sum+d
+    m=m//10
+print(sum)
+    
+
+
+6//10
+
+7%10
+
+num=int(input("please enter the number here"))
+m=num
+sum=0
+while(m!=0):
+    d=m%10
+    sum=sum+d
+    m=m//10
+print(sum)    
+
+num=int(input("please enter starting number"))
+
+
+for i in range(num,num2+1):
+    factors=0
+for j in range(i,i+1):
+    factors=factors+1
+if (factors==2):
+    print("this is a prime number")
+else:
+    print("this is not a prime number")
+
+print(num)
+
+num=int(input("please enter the number"))
+m=num
+product=1
+while(m!=0):
+    d=m%10
+    product=product*d
+    m=m//10
+print(product)
+    
+
+num=int(input("please enter the number"))
+m=num
+sum=0
+while(m!=0):
+    d=m%10
+    square=d**2
+    sum=sum+square
+    m=m//10
+    
+print(sum)    
+
+num=int(input("please enter the number"))
+m=num
+sum=0
+while(m!=0):
+    d=m%10
+    cube=d**3
+    sum=sum+cube
+    m=m//10
+    
+print(sum)    
+
+#take the even numbers
+
+num=int(input("please enter the number"))
+reversed_num = 0
+
+while (num != 0):
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //= 10
+print(reversed_num)    
+
+num=int(input("please enter the number"))
+m=num
+while
+
+#take the odd numbers
+
+num=int(input("please enter the number"))
+num=m
+while(m!=0):
+     d=m%10
+     if (d%2!=0):
+         print(d,end="")
+     m=m//10  
+        
+      
+
+num=int(input("please enter the number"))
+count=0
+m=num
+while(m!=0):
+    d=m%10
+    count=count+1
+    m=m//10
+print(count)    
+    
+    
+
+num1=int(input("please enter the number one "))
+num2=int(input("please enter the number two "))
+count=0
+m=num1
+while(m!=0):
+    d=m%10
+    count=count+1
+    m=m//10
+    total_count1=count
+print(total_count1) 
+
+count=0
+n=num2
+while(n!=0):
+    d=n%10
+    count=count+1
+    n=n//10
+    total_count2=count
+print(total_count2) 
+
+if (total_count1>total_count2):
+    print("num1 is bigger in value")
+else:
+    print("num2 is bigger in value")
+
+
+num=int(input("please enter the number"))
+factorial=1 
+for i in range(num,0,num+1):
+    factorial=factorial*i
+print(factorial)
+
+    
+
+num=int(input("please enter the number"))
+odd_count=0
+even_count=0
+while(num!=0):
+        d=num%10
+        if d%2==0:
+             even_count=even_count+1
+                
+        else:
+            odd_count=odd_count+1
+        num=num//10
+print(even_count,odd_count)
+
+num=int(input("please enter the number"))
+even_count=0
+sum=0
+while(num!=0):
+    d=num%10
+    if d%2==0:
+        even_count=even_count+1
+        sum=sum+even_count+1
+    num=num//10 
+print(sum)        
+
+
+num=int(input("please enter the number"))
+count=0
+while(num!=0):
+    d=num%10
+    count=count+1
+    if (count==10): 
+        print("it is a valid number")
+    else:
+
+
+num=1
+while num <= 50:
+    # Calculate the sum of the digits
+    digit_sum = sum(int(digit) for digit in str(num))
+    
+    if digit_sum == 10:
+        print(num)
+    
+    num += 1
+
+a = 5
+
+def double(num):
+    
+    b=5
+    global dbl = num*2
+    print(dbl)
+
+print(dbl)
+print(b)
+
+factorial=1
+
+for i in range(1,6):
+    factorial=factorial*i
+print(factorial)    
+    
+
+
+
